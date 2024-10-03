@@ -1,0 +1,29 @@
+{
+  "name": "exercice-tech-fffc",
+  "version": "1.0.0",
+  "description": "Votre objectif est d'écrire un outil générique pour convertir des fichiers de format fixe en fichier csv sur la base d'un fichier de métadonnées décrivant leur structure.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikki-league/exercice-tech-fffc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikki-league/exercice-tech-fffc/issues"
+  },
+  "homepage": "https://github.com/ikki-league/exercice-tech-fffc#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
